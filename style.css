@@ -1,0 +1,174 @@
+body{
+    background-image: url("image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: rgb(84, 60, 194), blue;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 100px;
+}.header {
+    overflow: hidden;
+    background-color: rgb(185, 185, 142);
+    /*padding: 20px 10px;*/
+  }
+  
+  .header img{
+    height: 50px;
+    width: 50px;
+  }
+  
+  
+  /* Style the header links */
+  .header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  
+  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Change the background color on mouse-over */
+  .header a:hover {
+    background-color: rgb(167, 29, 29);
+    color: White;
+  }
+  
+  .header a.active {
+    background-color: rgb(54, 54, 1);
+    color: white;
+  }
+  
+  /* Float the link section to the right */
+  .header-Right {
+    float: right;
+  }
+
+  .footer{
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(153, 245, 125);
+    color: rgb(13, 151, 75);
+    text-align: center;
+  }
+  #content{
+    color: maroon;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 100px;
+  }
+  .GIOVBARS {
+    color: #f1eeee; /* Dark text color */
+    text-align: center; /* Centered text */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.GIOVBARS h1 {
+    color: #f3f7fa; /* Blue text for the heading */
+}
+.about {
+    background-color: #f9f9f9; /* Light gray background */
+    color: #444; /* Dark text color */
+    padding: 20px; /* Spacing inside the section */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 600px; /* Max width for the section */
+    margin: 20px auto; /* Centered on the page */
+    text-align: left; /* Left-aligned text */
+}
+
+.about h2 {
+    color: #007acc; /* Blue color for the heading */
+    margin-bottom: 10px; /* Space below the heading */
+}
+.testimony {
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333; /* Dark text color */
+    padding: 20px; /* Spacing inside the section */
+    text-align: center; /* Centered text */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+.resume {
+    background-color: #f9f9f9; /* Light gray background */
+    color: #333; /* Dark text color */
+    padding: 20px; /* Spacing inside the section */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 600px; /* Max width for the section */
+    margin: 20px auto; /* Centered on the page */
+    text-align: left; /* Left-aligned text */
+}
+
+.resume h1 {
+    text-align: center; /* Center the main title */
+    color: #0b0c0c; /* Blue color for the main title */
+}
+
+.resume h2 {
+    color: #0d0d0e; /* Darker blue for section titles */
+    margin-top: 20px; /* Space above section titles */
+}
+
+.resume ul {
+    list-style-type: disc; /* Bullet points for the list */
+    margin-left: 20px; /* Indent the list */
+}
+.services {
+    background-color: #ffffff; /* White background */
+    color: #333; /* Dark text color */
+    padding: 20px; /* Spacing inside the section */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 600px; /* Max width for the section */
+    margin: 20px auto; /* Centered on the page */
+    text-align: left; /* Left-aligned text */
+}
+
+.services h1 {
+    text-align: center; /* Center the main title */
+    color: #0d0e0f; /* Blue color for the main title */
+}
+
+.services ul {
+    list-style-type: disc; /* Bullet points for the list */
+    margin-left: 20px; /* Indent the list */
+}
+.footer {
+    background-color: #333; /* Dark background */
+    color: #fff; /* White text color */
+    padding: 20px; /* Spacing inside the footer */
+    text-align: center; /* Centered text */
+    position: relative; /* Keep footer in place */
+    bottom: 0; /* Align at the bottom */
+    width: 100%; /* Full width */
+}
+
+.footer a {
+    color: #00aaff; /* Light blue links */
+    text-decoration: none; /* Remove underline */
+}
+
+.footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+
